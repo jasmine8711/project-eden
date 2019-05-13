@@ -9,9 +9,10 @@
 html {
   font-size: 10px;
   font-family: "roboto", sans-serif;
+  color: $color1;
 }
 body {
-  overflow: hidden;
+  overflow: scroll;
 }
 a {
   text-decoration: none;
@@ -23,9 +24,27 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("/images/city1.jpg") center no-repeat;
   background-size: cover;
+  animation: fadein 2s forwards ease;
 }
 .container {
   max-width: 120rem;
   width: 90%;
   margin: 0 auto;
+}
+
+.intro {
+  padding: 25rem;
+  h1 {
+    font-size: 5em;
+    font-weight: 300;
+    span {
+      color: $color2;
+    }
+  }
+  h2 {
+    font-size: 3em;
+  }
+  p {
+    font-size: 2em;
+  }
 }
