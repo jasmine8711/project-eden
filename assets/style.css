@@ -1,4 +1,4 @@
-.nav {
+nav {
   padding-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,27 +16,109 @@
 .brand {
   font-size: 3rem;
   font-weight: 300;
+  -webkit-transform: translate(-100rem);
+          transform: translate(-100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
 }
 
 .brand span {
-  color: #0d3d0d;
+  color: #377215;
 }
 
-.nav ul {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.nav ul li {
+nav ul li {
   list-style: none;
+  -webkit-transform: translate(100rem);
+          transform: translate(100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
 }
 
-.nav ul li a {
+nav ul li:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+nav ul li:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+nav ul li:nth-child(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+nav ul li:nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+nav ul li a {
   padding: 1rem 0;
   margin: 0 3rem;
   position: relative;
   letter-spacing: 2px;
+}
+
+nav ul li a :last-child {
+  margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #377215;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav ul li a::before {
+  top: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+nav ul li a::after {
+  bottom: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+@-webkit-keyframes slidein {
+  from {
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slidein {
+  from {
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 * {
@@ -51,6 +133,10 @@ html {
   font-family: "roboto", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: #ececec;
@@ -59,8 +145,8 @@ a {
 header {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.5))), url("images/Future-City.jpg") center no-repeat;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("images/Future-City.jpg") center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.5))), url("/images/city1.jpeg") center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/images/city1.jpeg") center no-repeat;
   background-size: cover;
 }
 
