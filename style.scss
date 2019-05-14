@@ -19,7 +19,6 @@ a {
 @import "assets/scss/_keyframes.scss";
 @import "assets/scss/_video.scss";
 @import "assets/scss/_wrapper.scss";
-@import "assets/scss/_nav.scss";
 
 .home {
   width: 100%;
@@ -30,7 +29,7 @@ a {
     width: 90%;
     margin: 0 auto;
   }
-
+  @import "assets/scss/_nav.scss";
   .intro {
     text-shadow: 3px 3px 4px black;
     animation: fadein 10s forwards ease;
@@ -57,9 +56,6 @@ a {
         margin: 0.5em;
         filter: drop-shadow(3px 3px 4px black);
       }
-    }
-    h2 {
-      font-size: 2em;
     }
     p {
       font-size: 1em;

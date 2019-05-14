@@ -102,13 +102,24 @@ a {
           margin-block-end: 1em;
 }
 
-nav {
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.home .container {
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-nav .nav {
+.home nav .nav {
   padding-top: 1rem;
   text-shadow: 3px 3px 4px black;
   display: -webkit-box;
@@ -122,17 +133,16 @@ nav .nav {
           align-items: center;
   text-transform: uppercase;
   font-size: 1em;
-  width: 90%;
 }
 
-nav .nav ul {
+.home nav .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
-nav .nav ul li {
+.home nav .nav ul li {
   list-style: none;
   -webkit-transform: translate(100rem);
           transform: translate(100rem);
@@ -140,19 +150,19 @@ nav .nav ul li {
           animation: slidein 2s forwards ease;
 }
 
-nav .nav ul li a {
+.home nav .nav ul li a {
   padding: 0.5rem 0;
   margin: 0 2vw;
   position: relative;
   letter-spacing: 2px;
 }
 
-nav .nav ul li :last-child {
+.home nav .nav ul li :last-child {
   margin-right: 0;
 }
 
-nav .nav ul li ::before,
-nav .nav ul li ::after {
+.home nav .nav ul li ::before,
+.home nav .nav ul li ::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -165,50 +175,50 @@ nav .nav ul li ::after {
   transition: all 0.5s;
 }
 
-nav .nav ul li ::before {
+.home nav .nav ul li ::before {
   top: 0;
   -webkit-transform-origin: left;
           transform-origin: left;
 }
 
-nav .nav ul li ::after {
+.home nav .nav ul li ::after {
   bottom: 0;
   -webkit-transform-origin: right;
           transform-origin: right;
 }
 
-nav .nav ul li :hover::before,
-nav .nav ul li :hover::after {
+.home nav .nav ul li :hover::before,
+.home nav .nav ul li :hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
 
-nav .nav ul :nth-child(1) {
+.home nav .nav ul :nth-child(1) {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
 
-nav .nav ul :nth-child(2) {
+.home nav .nav ul :nth-child(2) {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
 
-nav .nav ul :nth-child(3) {
+.home nav .nav ul :nth-child(3) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-nav .nav ul :nth-child(4) {
+.home nav .nav ul :nth-child(4) {
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 
-nav .nav ul :active {
+.home nav .nav ul :active {
   -webkit-transform: translateY(4px) !important;
           transform: translateY(4px) !important;
 }
 
-nav .nav .brand {
+.home nav .nav .brand {
   max-height: 2em;
   -webkit-transform: translate(-100rem);
           transform: translate(-100rem);
@@ -218,19 +228,8 @@ nav .nav .brand {
           filter: drop-shadow(3px 3px 4px black);
 }
 
-nav .nav .brand span {
+.home nav .nav .brand span {
   color: #58b422;
-}
-
-.home {
-  width: 100%;
-  height: 100vh;
-}
-
-.home .container {
-  max-width: 140rem;
-  width: 90%;
-  margin: 0 auto;
 }
 
 .home .intro {
@@ -275,10 +274,6 @@ nav .nav .brand span {
   margin: 0.5em;
   -webkit-filter: drop-shadow(3px 3px 4px black);
           filter: drop-shadow(3px 3px 4px black);
-}
-
-.home .intro h2 {
-  font-size: 2em;
 }
 
 .home .intro p {
