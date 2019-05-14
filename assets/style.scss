@@ -2,6 +2,7 @@
 @import "_nav.scss";
 @import "_keyframes.scss";
 @import "_video.scss";
+@import "_wrapper.scss";
 
 * {
   box-sizing: border-box;
@@ -53,15 +54,5 @@ a {
     p {
       font-size: 1em;
     }
-  }
-}
-.wrapper {
-  width: 100%;
-  height: auto;
-  background: $color1;
-  color: $color3;
-  .container {
-    width: 90%;
-    margin: 5% auto;
   }
 }

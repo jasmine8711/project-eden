@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: $color1;
+  color: $color3;
+  text-align: center;
+  .container {
+    width: 90%;
+    margin: 5% auto;
+    h1 {
+      font-size: 2.25em;
+      font-weight: 80;
+    }
+    p {
+      margin-block-start: 1em;
+    }
+  }
+}

@@ -152,6 +152,29 @@ nav ul li a:hover::after {
   z-index: -1;
 }
 
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #ececec;
+  color: #464545;
+  text-align: center;
+}
+
+.wrapper .container {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.wrapper .container h1 {
+  font-size: 2.25em;
+  font-weight: 80;
+}
+
+.wrapper .container p {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -213,17 +236,5 @@ a {
 
 .page1 .intro p {
   font-size: 1em;
-}
-
-.wrapper {
-  width: 100%;
-  height: auto;
-  background: #ececec;
-  color: #464545;
-}
-
-.wrapper .container {
-  width: 90%;
-  margin: 5% auto;
 }
 /*# sourceMappingURL=style.css.map */
