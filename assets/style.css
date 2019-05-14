@@ -10,14 +10,14 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1em;
   position: fixed;
   top: 0;
   width: 90%;
 }
 
 .brand {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 300;
   -webkit-transform: translate(-100rem);
           transform: translate(-100rem);
@@ -65,7 +65,7 @@ nav ul li:nth-child(4) {
 
 nav ul li a {
   padding: 0.5rem 0;
-  margin: 0 3rem;
+  margin: 0 2vw;
   position: relative;
   letter-spacing: 2px;
 }
@@ -142,6 +142,16 @@ nav ul li a:hover::after {
   }
 }
 
+.bgvideo-la {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -150,9 +160,10 @@ nav ul li a:hover::after {
 }
 
 html {
-  font-size: 10px;
+  font-size: calc(14px + 0.2vw);
   font-family: "roboto", sans-serif;
   color: #ececec;
+  background: #ececec;
 }
 
 body {
@@ -164,40 +175,55 @@ a {
   color: #ececec;
 }
 
-header {
+.page1 {
   width: 100%;
   height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.5))), url("/images/city1.jpg") center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/images/city1.jpg") center no-repeat;
   background-size: cover;
-  -webkit-animation: fadein 2s forwards ease;
-          animation: fadein 2s forwards ease;
 }
 
-.container {
-  max-width: 120rem;
+.page1 .container {
+  max-width: 140rem;
   width: 90%;
   margin: 0 auto;
 }
 
-.intro {
-  padding: 25rem;
+.page1 .intro {
+  padding: 20%;
+  -webkit-animation: fadein 10s forwards ease;
+          animation: fadein 10s forwards ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  opacity: 0;
 }
 
-.intro h1 {
-  font-size: 5em;
+.page1 .intro h1 {
+  font-size: 3em;
   font-weight: 300;
 }
 
-.intro h1 span {
+.page1 .intro h1 span {
   color: #58b422;
 }
 
-.intro h2 {
-  font-size: 3em;
+.page1 .intro h2 {
+  font-size: 2em;
 }
 
-.intro p {
-  font-size: 2em;
+.page1 .intro p {
+  font-size: 1em;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #ececec;
+  color: #464545;
+}
+
+.wrapper .container {
+  width: 90%;
+  margin: 5% auto;
 }
 /*# sourceMappingURL=style.css.map */

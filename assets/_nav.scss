@@ -4,13 +4,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1em;
   position: fixed;
   top: 0;
   width: 90%;
 }
 .brand {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 300;
   transform: translate(-100rem);
   animation: slidein 2s forwards ease;
@@ -42,7 +42,7 @@ nav ul li:nth-child(4) {
 }
 nav ul li a {
   padding: 0.5rem 0;
-  margin: 0 3rem;
+  margin: 0 2vw;
   position: relative;
   letter-spacing: 2px;
 }
