@@ -1,0 +1,287 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+  color: #ececec;
+  background: #ececec;
+}
+
+a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+@-webkit-keyframes slidein {
+  from {
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slidein {
+  from {
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  to {
+    opacity: 1;
+    -webkit-box-shadow: 1;
+            box-shadow: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+  to {
+    opacity: 1;
+    -webkit-box-shadow: 1;
+            box-shadow: 1;
+  }
+}
+
+.bgvideo-la {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  -webkit-animation: fadein 2s forwards ease;
+          animation: fadein 2s forwards ease;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #ececec;
+  color: #464545;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .container {
+  width: 55%;
+  margin: 5% auto;
+}
+
+.wrapper .container h1 {
+  font-size: 2.25em;
+  font-weight: 80;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.wrapper .container p {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav .nav {
+  padding-top: 1rem;
+  text-shadow: 3px 3px 4px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  width: 90%;
+}
+
+nav .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+nav .nav ul li {
+  list-style: none;
+  -webkit-transform: translate(100rem);
+          transform: translate(100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
+}
+
+nav .nav ul li a {
+  padding: 0.5rem 0;
+  margin: 0 2vw;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+nav .nav ul li :last-child {
+  margin-right: 0;
+}
+
+nav .nav ul li ::before,
+nav .nav ul li ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #58b422;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav .nav ul li ::before {
+  top: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+nav .nav ul li ::after {
+  bottom: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+nav .nav ul li :hover::before,
+nav .nav ul li :hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+nav .nav ul :nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+nav .nav ul :nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+nav .nav ul :nth-child(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+nav .nav ul :nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+nav .nav ul :active {
+  -webkit-transform: translateY(4px) !important;
+          transform: translateY(4px) !important;
+}
+
+nav .nav .brand {
+  max-height: 2em;
+  -webkit-transform: translate(-100rem);
+          transform: translate(-100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
+  -webkit-filter: drop-shadow(3px 3px 4px black);
+          filter: drop-shadow(3px 3px 4px black);
+}
+
+nav .nav .brand span {
+  color: #58b422;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.home .container {
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home .intro {
+  text-shadow: 3px 3px 4px black;
+  -webkit-animation: fadein 10s forwards ease;
+          animation: fadein 10s forwards ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .intro .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+}
+
+.home .intro .logo h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.home .intro .logo h1 span {
+  color: #58b422;
+}
+
+.home .intro .logo img {
+  max-height: 3em;
+  margin: 0.5em;
+  -webkit-filter: drop-shadow(3px 3px 4px black);
+          filter: drop-shadow(3px 3px 4px black);
+}
+
+.home .intro h2 {
+  font-size: 2em;
+}
+
+.home .intro p {
+  font-size: 1em;
+}
+/*# sourceMappingURL=style.css.map */
