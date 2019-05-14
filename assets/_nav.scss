@@ -1,4 +1,7 @@
 nav {
+  background: red;
+}
+.nav {
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -10,8 +13,7 @@ nav {
   width: 90%;
 }
 .brand {
-  font-size: 1.5rem;
-  font-weight: 300;
+  max-height: 2em;
   transform: translate(-100rem);
   animation: slidein 2s forwards ease;
 }

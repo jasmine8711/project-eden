@@ -1,4 +1,31 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: calc(14px + 0.2vw);
+  font-family: "roboto", sans-serif;
+  color: #ececec;
+  background: #ececec;
+}
+
+body {
+  overflow: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: #ececec;
+}
+
 nav {
+  background: red;
+}
+
+.nav {
   padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,8 +44,7 @@ nav {
 }
 
 .brand {
-  font-size: 1.5rem;
-  font-weight: 300;
+  max-height: 2em;
   -webkit-transform: translate(-100rem);
           transform: translate(-100rem);
   -webkit-animation: slidein 2s forwards ease;
@@ -143,11 +169,6 @@ nav ul li a:hover::after {
 }
 
 .bgvideo-la {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  margin: 0;
   position: absolute;
   z-index: -1;
 }
@@ -157,11 +178,11 @@ nav ul li a:hover::after {
   height: auto;
   background: #ececec;
   color: #464545;
-  text-align: center;
+  text-align: left;
 }
 
 .wrapper .container {
-  width: 90%;
+  width: 55%;
   margin: 5% auto;
 }
 
@@ -171,39 +192,13 @@ nav ul li a:hover::after {
 }
 
 .wrapper .container p {
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  font-size: calc(14px + 0.2vw);
-  font-family: "roboto", sans-serif;
-  color: #ececec;
-  background: #ececec;
-}
-
-body {
-  overflow: scroll;
-}
-
-a {
-  text-decoration: none;
-  color: #ececec;
+  -webkit-margin-before: 2em;
+          margin-block-start: 2em;
 }
 
 .page1 {
   width: 100%;
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.5))), url("/images/city1.jpg") center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/images/city1.jpg") center no-repeat;
-  background-size: cover;
 }
 
 .page1 .container {
@@ -213,7 +208,8 @@ a {
 }
 
 .page1 .intro {
-  padding: 20%;
+  padding-left: 20%;
+  padding-top: 25%;
   -webkit-animation: fadein 10s forwards ease;
           animation: fadein 10s forwards ease;
   -webkit-animation-delay: 3s;
@@ -221,13 +217,24 @@ a {
   opacity: 0;
 }
 
-.page1 .intro h1 {
+.page1 .intro .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page1 .intro .logo h1 {
   font-size: 3em;
   font-weight: 300;
 }
 
-.page1 .intro h1 span {
+.page1 .intro .logo h1 span {
   color: #58b422;
+}
+
+.page1 .intro .logo img {
+  vertical-align: middle;
+  max-height: 3em;
 }
 
 .page1 .intro h2 {

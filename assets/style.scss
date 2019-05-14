@@ -1,8 +1,4 @@
 @import "_var.scss";
-@import "_nav.scss";
-@import "_keyframes.scss";
-@import "_video.scss";
-@import "_wrapper.scss";
 
 * {
   box-sizing: border-box;
@@ -22,13 +18,19 @@ a {
   text-decoration: none;
   color: $color1;
 }
+
+@import "_nav.scss";
+@import "_keyframes.scss";
+@import "_video.scss";
+@import "_wrapper.scss";
+
 .page1 {
   width: 100%;
   height: 100vh;
 
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("/images/city1.jpg") center no-repeat;
-  background-size: cover;
+  // background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+  //   url("/images/city1.jpg") center no-repeat;
+  // background-size: cover;
 
   .container {
     max-width: 140rem;
@@ -37,15 +39,24 @@ a {
   }
 
   .intro {
-    padding: 20%;
+    padding-left: 20%;
+    padding-top: 25%;
     animation: fadein 10s forwards ease;
     animation-delay: 3s;
     opacity: 0;
-    h1 {
-      font-size: 3em;
-      font-weight: 300;
-      span {
-        color: $color2;
+    .logo {
+      display: flex;
+
+      h1 {
+        font-size: 3em;
+        font-weight: 300;
+        span {
+          color: $color2;
+        }
+      }
+      img {
+        vertical-align: middle;
+        max-height: 3em;
       }
     }
     h2 {
