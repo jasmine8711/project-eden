@@ -1,4 +1,7 @@
 .bgvideo-la {
   position: absolute;
   z-index: -1;
+  opacity: 0;
+  animation: fadein 2s forwards ease;
+  animation-delay: 500ms;
 }
