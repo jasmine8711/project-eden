@@ -4,15 +4,18 @@
   background: $color1;
   color: $color3;
   text-align: left;
+  display: flex;
+  align-items: center;
   .container {
     width: 55%;
-    margin: auto;
+    margin: 5% auto;
     h1 {
       font-size: 2.25em;
       font-weight: 80;
+      margin-block-end: 1em;
     }
     p {
-      margin-block-start: 2em;
+      margin-block-end: 1em;
     }
   }
 }
