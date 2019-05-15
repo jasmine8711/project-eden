@@ -131,18 +131,50 @@ footer {
 }
 
 footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 55%;
   margin: auto;
   padding: 1% 0;
 }
 
-footer .foot h1 {
+footer .foot .contact h1 {
   -webkit-margin-after: 0.5em;
           margin-block-end: 0.5em;
 }
 
-footer .foot ul li {
+footer .foot .contact ul li {
   list-style: none;
+}
+
+footer .foot .form form input {
+  display: block;
+  margin: 2px;
+  background-color: transparent;
+  color: #ececec;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+footer .foot .form form ::-webkit-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form :-ms-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form ::-ms-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form ::placeholder {
+  color: #ececec;
 }
 
 .home {
