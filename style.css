@@ -302,4 +302,51 @@ footer .foot {
   -webkit-filter: drop-shadow(3px 3px 4px black);
           filter: drop-shadow(3px 3px 4px black);
 }
+
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+  }
+  html .home {
+    background: url("/assets/images/city1.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-animation: fadein 10s forwards ease;
+            animation: fadein 10s forwards ease;
+    opacity: 0;
+  }
+  video {
+    display: none;
+  }
+  .wrapper .container {
+    width: 80%;
+  }
+  .wrapper .container h1 {
+    right: 20vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+  }
+  html .home {
+    background: url("/assets/images/city1.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-animation: fadein 10s forwards ease;
+            animation: fadein 10s forwards ease;
+    opacity: 0;
+  }
+  video {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .wrapper .container {
+    width: 95%;
+  }
+  .wrapper .container h1 {
+    right: 10vw;
+  }
+}
 /*# sourceMappingURL=style.css.map */

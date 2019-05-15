@@ -1,0 +1,47 @@
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+    .home {
+      background: url("/assets/images/city1.jpg") no-repeat center;
+      background-size: cover;
+      animation: fadein 10s forwards ease;
+      opacity: 0;
+    }
+  }
+  video {
+    display: none;
+  }
+  .wrapper {
+    .container {
+      width: 80%;
+      h1 {
+        right: 20vw;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+    .home {
+      background: url("/assets/images/city1.jpg") no-repeat center;
+      background-size: cover;
+      animation: fadein 10s forwards ease;
+      opacity: 0;
+    }
+  }
+  video {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .wrapper {
+    .container {
+      width: 95%;
+      h1 {
+        right: 10vw;
+      }
+    }
+  }
+}
