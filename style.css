@@ -69,6 +69,8 @@ a {
           animation: fadein 2s forwards ease;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
+  -webkit-box-shadow: 0px 5px 4px -4px black;
+          box-shadow: 0px 5px 4px -4px black;
 }
 
 .wrapper {
@@ -76,7 +78,7 @@ a {
   height: auto;
   background: #ececec;
   color: #464545;
-  text-align: left;
+  text-align: justify;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +93,7 @@ a {
 }
 
 .wrapper .container h1 {
+  color: #58b422;
   font-size: 2.25em;
   font-weight: 80;
   -webkit-margin-after: 1em;
@@ -117,6 +120,7 @@ a {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 
 .home nav .nav {
@@ -240,7 +244,6 @@ a {
           animation-delay: 3s;
   opacity: 0;
   height: 100vh;
-  vertical-align: middle;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -253,7 +256,6 @@ a {
 }
 
 .home .intro .logo {
-  position: relative;
   margin: -40%;
   display: -webkit-box;
   display: -ms-flexbox;
