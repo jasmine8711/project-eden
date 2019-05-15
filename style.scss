@@ -6,6 +6,7 @@
   margin: 0;
 }
 html {
+  scroll-behavior: smooth;
   font-size: 16px;
   font-family: "roboto", sans-serif;
   color: $color1;
@@ -19,6 +20,7 @@ a {
 @import "assets/scss/_keyframes.scss";
 @import "assets/scss/_video.scss";
 @import "assets/scss/_wrapper.scss";
+@import "assets/scss/footer";
 
 .home {
   width: 100%;

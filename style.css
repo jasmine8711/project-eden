@@ -6,6 +6,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 16px;
   font-family: "roboto", sans-serif;
   color: #ececec;
@@ -108,6 +109,18 @@ a {
 .wrapper .container p {
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
+}
+
+footer {
+  width: 100%;
+  background: #58b422;
+  font-size: 0.5em;
+}
+
+footer .foot {
+  width: 55%;
+  margin: auto;
+  padding: 1% 0;
 }
 
 .home {
@@ -222,9 +235,9 @@ a {
           animation-delay: 1.5s;
 }
 
-.home nav .nav ul :active {
-  -webkit-transform: translateY(4px) !important;
-          transform: translateY(4px) !important;
+.home nav .nav ul :nth-child(5) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .home nav .nav .brand {
