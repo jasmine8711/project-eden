@@ -9,7 +9,7 @@ footer {
     margin: auto;
     padding: 1% 0;
     .contact {
-      h1 {
+      h2 {
         margin-block-end: 0.5em;
       }
       ul li {
@@ -19,19 +19,19 @@ footer {
     .form {
       h2 {
         margin-block-end: 0.5em;
-        form {
-          input {
-            display: block;
-            margin: 2px;
-            background-color: transparent;
-            color: $color1;
-            border: 1px solid;
-            border-radius: 2px;
-            padding: 5px;
-          }
-          ::placeholder {
-            color: $color1;
-          }
+      }
+      form {
+        input {
+          display: block;
+          margin: 2px;
+          background-color: transparent;
+          color: $color1;
+          border: 1px solid;
+          border-radius: 2px;
+          padding: 5px;
+        }
+        ::placeholder {
+          color: $color1;
         }
       }
     }
