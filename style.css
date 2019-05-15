@@ -382,6 +382,9 @@ footer .foot .form form ::placeholder {
   .wrapper .container h1 {
     right: 20vw;
   }
+  footer .foot {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -406,6 +409,9 @@ footer .foot .form form ::placeholder {
   }
   .wrapper .container h1 {
     right: 10vw;
+  }
+  footer .foot {
+    width: 95%;
   }
 }
 /*# sourceMappingURL=style.css.map */
