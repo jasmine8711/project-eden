@@ -98,6 +98,11 @@ a {
   font-weight: 80;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
+  border-bottom: 1px solid #58b422;
+  position: relative;
+  right: 45vw;
+  text-align: right;
+  width: 100vw;
 }
 
 .wrapper .container p {
