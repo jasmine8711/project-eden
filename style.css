@@ -212,12 +212,14 @@ nav .nav .brand span {
   position: absolute;
   z-index: -1;
   opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
   -webkit-animation: fadein 2s forwards ease;
           animation: fadein 2s forwards ease;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
-  -webkit-box-shadow: 0px 5px 4px -4px black;
-          box-shadow: 0px 5px 4px -4px black;
 }
 
 .wrapper {
@@ -657,6 +659,64 @@ footer .foot .form form ::placeholder {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
+}
+
+@media only screen and (max-width: 2000px) {
+  html {
+    font-size: 24px;
+  }
+  .wrapper .container {
+    width: 55%;
+  }
+  .wrapper .container h1 {
+    right: 20vw;
+  }
+  footer .foot {
+    width: 55%;
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics .content-box {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+  html .home {
+    background: url("./assets/images/city1.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-animation: fadein 10s forwards ease;
+            animation: fadein 10s forwards ease;
+    opacity: 0;
+  }
+  video {
+    display: none;
+  }
+  .wrapper .container {
+    width: 55%;
+  }
+  .wrapper .container h1 {
+    right: 20vw;
+  }
+  footer .foot {
+    width: 55%;
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics .content-box {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 770px) {

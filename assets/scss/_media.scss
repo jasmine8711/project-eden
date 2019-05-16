@@ -1,3 +1,80 @@
+@media only screen and (max-width: 2000px) {
+  html {
+    font-size: 24px;
+    // .home {
+    //     background: url("./assets/images/city1.jpg") no-repeat center;
+    //     background-size: cover;
+    //     animation: fadein 10s forwards ease;
+    //     opacity: 0;
+    //   }
+    // }
+    // video {
+    //   display: none;
+  }
+  .wrapper {
+    .container {
+      width: 55%;
+      h1 {
+        right: 20vw;
+      }
+    }
+  }
+  footer {
+    .foot {
+      width: 55%;
+    }
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics {
+    .content-box {
+      width: 55%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+    .home {
+      background: url("./assets/images/city1.jpg") no-repeat center;
+      background-size: cover;
+      animation: fadein 10s forwards ease;
+      opacity: 0;
+    }
+  }
+  video {
+    display: none;
+  }
+  .wrapper {
+    .container {
+      width: 55%;
+      h1 {
+        right: 20vw;
+      }
+    }
+  }
+  footer {
+    .foot {
+      width: 55%;
+    }
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics {
+    .content-box {
+      width: 55%;
+    }
+  }
+}
 @media only screen and (max-width: 770px) {
   html {
     font-size: 12px;
