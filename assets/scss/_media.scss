@@ -21,6 +21,9 @@
       width: 55%;
     }
   }
+  .googlebox {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -46,6 +49,9 @@
     .foot {
       width: 55%;
     }
+  }
+  .googlebox {
+    width: 55%;
   }
 }
 @media only screen and (max-width: 770px) {
@@ -85,6 +91,9 @@
       width: 80%;
     }
   }
+  .googlebox {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 375px) {
   html {
@@ -121,5 +130,8 @@
     .foot {
       width: 95%;
     }
+  }
+  .googlebox {
+    width: 95%;
   }
 }

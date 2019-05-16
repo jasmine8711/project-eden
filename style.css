@@ -518,7 +518,7 @@ header .logo img {
 .googlebox .googlelink {
   width: 60%;
   height: 40vh;
-  margin: 2em;
+  margin: 2em 2em 2em 0em;
 }
 
 .googlebox .google-box1 {
@@ -870,6 +870,9 @@ header .logo img {
   .robotics .content-box {
     width: 55%;
   }
+  .googlebox {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -889,6 +892,9 @@ header .logo img {
     width: 55%;
   }
   footer .foot {
+    width: 55%;
+  }
+  .googlebox {
     width: 55%;
   }
 }
@@ -926,6 +932,9 @@ header .logo img {
   footer .foot {
     width: 80%;
   }
+  .googlebox {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -958,6 +967,9 @@ header .logo img {
     width: 95%;
   }
   footer .foot {
+    width: 95%;
+  }
+  .googlebox {
     width: 95%;
   }
 }
