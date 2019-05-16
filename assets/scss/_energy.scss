@@ -48,6 +48,15 @@
   ul {
     padding: 1em;
     font-style: italic;
+    list-style: none;
+    li::before {
+      content: "•";
+      color: $color4;
+      font-style: normal;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
   }
 }
 
