@@ -453,6 +453,10 @@ footer .foot .form form ::placeholder {
   text-align: justify;
 }
 
+.para-cont strong {
+  color: #008092;
+}
+
 .para-cont ul {
   padding: 1em;
   font-style: italic;
