@@ -25,13 +25,19 @@
     <title>Project Eden</title>
   </head>
   <body>
-    <video autoplay muted loop class="bgvideo-la">
-      <source src="./assets/video/bgvideo.mp4" type="video/mp4" />
-    </video>
-    <div class="home" id="home">
+    <div class="fullscreen-video-wrap">
+      <video autoplay muted loop class="bgvideo-la" id="home">
+        <source src="./assets/video/bgvideo.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="sticky">
+      <a href="#home"
+        ><img src="./assets/images/eden.svg" alt="logo eden" class="brand"
+      /></a>
+    </div>
+    <div class="home">
       <nav>
         <div class="nav">
-          <img src="./assets/images/eden.svg" alt="logo eden" class="brand" />
           <ul>
             <li>
               <a href="#home">Home</a>

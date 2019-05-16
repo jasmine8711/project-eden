@@ -28,9 +28,35 @@ h6 {
   font-family: "Encode Sans Semi Expanded", sans-serif;
 }
 
+.sticky {
+  top: 0;
+  z-index: 5;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-shadow: 3px 3px 4px black;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.sticky .brand {
+  max-height: 2em;
+  -webkit-transform: translate(-100rem);
+          transform: translate(-100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
+  -webkit-filter: drop-shadow(3px 3px 4px black);
+          filter: drop-shadow(3px 3px 4px black);
+}
+
+.sticky .brand span {
+  color: #58b422;
+}
+
 nav {
   top: 0;
   z-index: 5;
+  position: absolute;
   max-width: 140rem;
   width: 90%;
   margin: 0 auto;
@@ -42,12 +68,16 @@ nav .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
   text-transform: uppercase;
   font-size: 1em;
 }
@@ -150,20 +180,6 @@ nav .nav ul :nth-child(5) {
           animation-delay: 2s;
 }
 
-nav .nav .brand {
-  max-height: 2em;
-  -webkit-transform: translate(-100rem);
-          transform: translate(-100rem);
-  -webkit-animation: slidein 2s forwards ease;
-          animation: slidein 2s forwards ease;
-  -webkit-filter: drop-shadow(3px 3px 4px black);
-          filter: drop-shadow(3px 3px 4px black);
-}
-
-nav .nav .brand span {
-  color: #58b422;
-}
-
 @-webkit-keyframes slidein {
   from {
   }
@@ -208,7 +224,7 @@ nav .nav .brand span {
   }
 }
 
-.bgvideo-la {
+.fullscreen-video-wrap {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -220,6 +236,11 @@ nav .nav .brand span {
           animation: fadein 2s forwards ease;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
+}
+
+.bgvideo-la {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .wrapper {
@@ -688,16 +709,6 @@ footer .foot .form form ::placeholder {
 @media only screen and (max-width: 1400px) {
   html {
     font-size: 16px;
-  }
-  html .home {
-    background: url("./assets/images/city1.jpg") no-repeat center;
-    background-size: cover;
-    -webkit-animation: fadein 10s forwards ease;
-            animation: fadein 10s forwards ease;
-    opacity: 0;
-  }
-  video {
-    display: none;
   }
   .wrapper .container {
     width: 55%;

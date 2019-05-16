@@ -1,6 +1,26 @@
+.sticky {
+  top: 0;
+  z-index: 5;
+  // display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-shadow: 3px 3px 4px black;
+  position: sticky;
+  .brand {
+    max-height: 2em;
+    transform: translate(-100rem);
+    animation: slidein 2s forwards ease;
+    filter: drop-shadow(3px 3px 4px black);
+    span {
+      color: $color2;
+    }
+  }
+}
 nav {
   top: 0;
   z-index: 5;
+  position: absolute;
   max-width: 140rem;
   width: 90%;
   margin: 0 auto;
@@ -8,8 +28,9 @@ nav {
     padding-top: 1rem;
     text-shadow: 3px 3px 4px black;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     text-transform: uppercase;
     font-size: 1em;
     ul {
@@ -78,15 +99,6 @@ nav {
       }
       :nth-child(5) {
         animation-delay: 2s;
-      }
-    }
-    .brand {
-      max-height: 2em;
-      transform: translate(-100rem);
-      animation: slidein 2s forwards ease;
-      filter: drop-shadow(3px 3px 4px black);
-      span {
-        color: $color2;
       }
     }
   }
