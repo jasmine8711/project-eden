@@ -518,10 +518,10 @@ footer .foot .form form ::placeholder {
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   background-color: #ececec;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 2em;
+  padding-top: 1em;
   text-align: left;
-  padding-right: 50px;
+  padding-right: 2em;
   text-align: justify;
 }
 
@@ -538,6 +538,8 @@ footer .foot .form form ::placeholder {
 
 .robotics .container .content-box-1 p {
   font-size: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
 }
 
 .robotics .container .content-box-2 {
@@ -549,10 +551,10 @@ footer .foot .form form ::placeholder {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   color: #ececec;
-  padding-left: 50px;
-  padding-top: 10px;
+  padding-left: 2em;
+  padding-top: 1em;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 2em;
   text-align: justify;
 }
 
@@ -569,6 +571,8 @@ footer .foot .form form ::placeholder {
 
 .robotics .container .content-box-2 p {
   font-size: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
 }
 
 .robotics .container .img-box-2 {
@@ -596,14 +600,10 @@ footer .foot .form form ::placeholder {
 }
 
 .robotics .content-box {
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  height: 95vh;
   width: 55%;
   margin: auto;
   text-align: justify;
+  margin-bottom: 5%;
 }
 
 .robotics .content-box h1 {
@@ -620,6 +620,7 @@ footer .foot .form form ::placeholder {
   text-align: right;
   width: 100vw;
   margin-top: 5%;
+  margin-block-end: 1em;
 }
 
 .robotics .content-box .p-left {
@@ -678,6 +679,15 @@ footer .foot .form form ::placeholder {
   footer .foot {
     width: 80%;
   }
+  .kris-container {
+    width: 80%;
+  }
+  .para-cont {
+    width: 80%;
+  }
+  .robotics .content-box {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -704,6 +714,15 @@ footer .foot .form form ::placeholder {
     right: 10vw;
   }
   footer .foot {
+    width: 95%;
+  }
+  .kris-container {
+    width: 95%;
+  }
+  .para-cont {
+    width: 95%;
+  }
+  .robotics .content-box {
     width: 95%;
   }
 }

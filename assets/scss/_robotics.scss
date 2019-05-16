@@ -11,18 +11,15 @@
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
     .content-box-1 {
       grid-column: 1/3;
       grid-row: 1/2;
       background-color: $color1;
-      padding-left: 20px;
-      padding-top: 10px;
+      padding-left: 2em;
+      padding-top: 1em;
       text-align: left;
-      padding-right: 50px;
+      padding-right: 2em;
       text-align: justify;
-
-      //   color: $color3;
       h1 {
         color: $color5;
         font-size: 2.25em;
@@ -33,6 +30,7 @@
       }
       p {
         font-size: 1em;
+        margin-block-end: 1em;
       }
     }
 
@@ -41,12 +39,11 @@
       grid-column: 2/4;
       grid-row: 2/3;
       color: $color1;
-      padding-left: 50px;
-      padding-top: 10px;
+      padding-left: 2em;
+      padding-top: 1em;
       text-align: right;
-      padding-right: 20px;
+      padding-right: 2em;
       text-align: justify;
-
       h1 {
         color: $color1;
         font-size: 2.25em;
@@ -57,6 +54,7 @@
       }
       p {
         font-size: 1em;
+        margin-block-end: 1em;
       }
     }
 
@@ -78,13 +76,10 @@
   }
 
   .content-box {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 95vh;
     width: 55%;
     margin: auto;
     text-align: justify;
-
+    margin-bottom: 5%;
     h1 {
       color: $color5;
       font-size: 2.25em;
@@ -97,6 +92,7 @@
       text-align: right;
       width: 100vw;
       margin-top: 5%;
+      margin-block-end: 1em;
     }
 
     .p-left {

@@ -24,6 +24,17 @@
       width: 80%;
     }
   }
+  .kris-container {
+    width: 80%;
+  }
+  .para-cont {
+    width: 80%;
+  }
+  .robotics {
+    .content-box {
+      width: 80%;
+    }
+  }
 }
 @media only screen and (max-width: 375px) {
   html {
@@ -51,6 +62,17 @@
   }
   footer {
     .foot {
+      width: 95%;
+    }
+  }
+  .kris-container {
+    width: 95%;
+  }
+  .para-cont {
+    width: 95%;
+  }
+  .robotics {
+    .content-box {
       width: 95%;
     }
   }
