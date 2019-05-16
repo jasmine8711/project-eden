@@ -394,6 +394,10 @@ footer .foot .form form ::placeholder {
   text-align: justify;
 }
 
+.kris-container strong {
+  color: #008092;
+}
+
 .kris-container .kris-box1 {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;

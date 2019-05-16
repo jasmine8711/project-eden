@@ -6,6 +6,9 @@
   padding-bottom: 5%;
   align-items: center;
   text-align: justify;
+  strong {
+    color: $color4;
+  }
   .kris-box1 {
     flex-basis: 60%;
     display: flex;
