@@ -1,0 +1,144 @@
+.eco-parallax {
+  background-image: url("./assets/images/cityplan.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  //   width: 100%;
+}
+.eco-container {
+  color: $color3;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  background: white;
+  text-align: justify;
+  strong {
+    color: $color7;
+  }
+  p {
+    margin-block-end: 1em;
+  }
+}
+.eco-title {
+  color: $color7;
+  font-size: 2.25em;
+  font-weight: 80;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  border-bottom: 1px solid $color7;
+  position: relative;
+  text-align: right;
+  margin-right: 22%;
+}
+/* roundbox */
+.la-roundbox {
+  width: 55vw;
+  height: 20vh;
+  margin: auto;
+  box-sizing: border-box;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  display: flex;
+}
+.la-r {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  img {
+    width: 8vw;
+    clip-path: circle(50% at 50% 50%);
+  }
+  p {
+    text-align: center;
+    text-transform: uppercase;
+    color: $color7;
+    margin-top: 1em;
+  }
+}
+.la-picbox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.la-item {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 20vw;
+  height: 33.33vh;
+  margin: 0;
+  padding: 0;
+  background: $color4;
+  p {
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    text-align: center;
+    color: $color1;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+}
+
+.la-itemcolor1 {
+  background: $color7;
+}
+.la-itemcolor2 {
+  background: $color8;
+}
+.la-itemcolor3 {
+  background: $color2;
+}
+.eco-image {
+  max-width: 100%;
+  justify-content: center;
+  margin-block-end: 1em;
+}
+
+.googlebox {
+  color: $color3;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  text-align: justify;
+  position: relative;
+  top: -2em;
+  display: flex;
+  .googlelink {
+    width: 60%;
+    height: 40vh;
+    margin: 2em;
+  }
+
+  .google-box1 {
+    font-size: 1em;
+    color: $color3;
+    border: $color2 solid 1px;
+    margin: 2em 0em 2em 2em;
+    padding: 1em;
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: $color3;
+    }
+  }
+}
