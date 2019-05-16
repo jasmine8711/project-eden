@@ -1,0 +1,24 @@
+.home-container {
+  color: $color3;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  text-align: justify;
+  strong {
+    color: $color2;
+  }
+  p {
+    margin-block-end: 1em;
+  }
+}
+.home-title {
+  color: $color2;
+  font-size: 2.25em;
+  font-weight: 80;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  border-bottom: 1px solid $color2;
+  position: relative;
+  text-align: right;
+  margin-right: 22%;
+}

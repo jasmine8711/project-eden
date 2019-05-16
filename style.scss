@@ -27,14 +27,11 @@ h6 {
 @import "./assets/scss/_nav.scss";
 @import "./assets/scss/_keyframes.scss";
 @import "./assets/scss/_video.scss";
-@import "./assets/scss/_wrapper.scss";
-@import "./assets/scss/_footer.scss";
 
-.home {
-  width: 100%;
-  height: 100vh;
-  @import "./assets/scss/_intro.scss";
-}
+@import "./assets/scss/_intro.scss";
+@import "./assets/scss/_home.scss";
 @import "./assets/scss/_energy.scss";
 @import "./assets/scss/_robotics.scss";
 @import "./assets/scss/_media.scss";
+@import "./assets/scss/_wrapper.scss";
+@import "./assets/scss/_footer.scss";

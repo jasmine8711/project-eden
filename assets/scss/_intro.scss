@@ -1,4 +1,4 @@
-.intro {
+header {
   text-shadow: 3px 3px 4px black;
   animation: fadein 10s forwards ease;
   animation-delay: 3s;
@@ -14,6 +14,7 @@
     h1 {
       font-size: 3em;
       font-weight: 300;
+      color: $color1;
       span {
         color: $color2;
       }

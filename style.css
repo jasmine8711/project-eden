@@ -243,114 +243,7 @@ nav .nav ul :nth-child(5) {
   min-height: 100%;
 }
 
-.wrapper {
-  width: 100%;
-  height: auto;
-  background: #ececec;
-  color: #464545;
-  text-align: justify;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 5%;
-}
-
-.wrapper .container {
-  width: 55%;
-  margin: auto;
-}
-
-.wrapper .container h1 {
-  color: #58b422;
-  font-size: 2.25em;
-  font-weight: 80;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  border-bottom: 1px solid #58b422;
-  position: relative;
-  right: 45vw;
-  text-align: right;
-  width: 100vw;
-}
-
-.wrapper .container p {
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-}
-
-.wrapper .container strong {
-  color: #58b422;
-}
-
-footer {
-  width: 100%;
-  background: #58b422;
-  font-size: 0.8em;
-}
-
-footer .foot {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 55%;
-  margin: auto;
-  padding: 1% 0;
-}
-
-footer .foot .contact h2 {
-  -webkit-margin-after: 0.5em;
-          margin-block-end: 0.5em;
-}
-
-footer .foot .contact ul li {
-  list-style: none;
-}
-
-footer .foot .form h2 {
-  -webkit-margin-after: 0.5em;
-          margin-block-end: 0.5em;
-}
-
-footer .foot .form form input {
-  display: block;
-  margin: 2px;
-  background-color: transparent;
-  color: #ececec;
-  border: 1px solid;
-  border-radius: 2px;
-  padding: 5px;
-}
-
-footer .foot .form form ::-webkit-input-placeholder {
-  color: #ececec;
-}
-
-footer .foot .form form :-ms-input-placeholder {
-  color: #ececec;
-}
-
-footer .foot .form form ::-ms-input-placeholder {
-  color: #ececec;
-}
-
-footer .foot .form form ::placeholder {
-  color: #ececec;
-}
-
-.home {
-  width: 100%;
-  height: 100vh;
-}
-
-.home .intro {
+header {
   text-shadow: 3px 3px 4px black;
   -webkit-animation: fadein 10s forwards ease;
           animation: fadein 10s forwards ease;
@@ -370,34 +263,66 @@ footer .foot .form form ::placeholder {
           justify-content: center;
 }
 
-.home .intro .logo {
+header .logo {
   margin: -40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.home .intro .logo h1 {
+header .logo h1 {
   font-size: 3em;
   font-weight: 300;
+  color: #ececec;
 }
 
-.home .intro .logo h1 span {
+header .logo h1 span {
   color: #58b422;
 }
 
-.home .intro .logo h1::after {
+header .logo h1::after {
   content: " Building our future one block at a time";
   display: block;
   font-size: 0.3em;
   letter-spacing: 0.05em;
 }
 
-.home .intro .logo img {
+header .logo img {
   max-height: 3em;
   margin: 0.5em;
   -webkit-filter: drop-shadow(3px 3px 4px black);
           filter: drop-shadow(3px 3px 4px black);
+}
+
+.home-container {
+  color: #464545;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  text-align: justify;
+}
+
+.home-container strong {
+  color: #58b422;
+}
+
+.home-container p {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.home-title {
+  color: #58b422;
+  font-size: 2.25em;
+  font-weight: 80;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  border-bottom: 1px solid #58b422;
+  position: relative;
+  text-align: right;
+  margin-right: 22%;
 }
 
 .kris-container {
@@ -799,5 +724,92 @@ footer .foot .form form ::placeholder {
   .robotics .content-box {
     width: 95%;
   }
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: #ececec;
+  color: #464545;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5%;
+}
+
+.wrapper .container {
+  width: 55%;
+  margin: auto;
+}
+
+.wrapper .container p {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.wrapper .container strong {
+  color: #58b422;
+}
+
+footer {
+  width: 100%;
+  background: #58b422;
+  font-size: 0.8em;
+}
+
+footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 55%;
+  margin: auto;
+  padding: 1% 0;
+}
+
+footer .foot .contact h2 {
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+}
+
+footer .foot .contact ul li {
+  list-style: none;
+}
+
+footer .foot .form h2 {
+  -webkit-margin-after: 0.5em;
+          margin-block-end: 0.5em;
+}
+
+footer .foot .form form input {
+  display: block;
+  margin: 2px;
+  background-color: transparent;
+  color: #ececec;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+footer .foot .form form ::-webkit-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form :-ms-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form ::-ms-input-placeholder {
+  color: #ececec;
+}
+
+footer .foot .form form ::placeholder {
+  color: #ececec;
 }
 /*# sourceMappingURL=style.css.map */
