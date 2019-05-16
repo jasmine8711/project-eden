@@ -6,15 +6,17 @@
   text-align: justify;
   display: flex;
   align-items: center;
+  padding-bottom: 5%;
 
   .container {
     width: 55%;
-    margin: 5% auto;
+    margin: auto;
     h1 {
       color: $color2;
       font-size: 2.25em;
       font-weight: 80;
       margin-block-end: 1em;
+      margin-block-start: 1em;
       border-bottom: 1px solid $color2;
       position: relative;
       right: 45vw;

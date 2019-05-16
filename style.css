@@ -27,6 +27,129 @@ h6 {
   font-family: "Encode Sans Semi Expanded", sans-serif;
 }
 
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav .nav {
+  padding-top: 1rem;
+  text-shadow: 3px 3px 4px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+nav .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+nav .nav ul li {
+  list-style: none;
+  -webkit-transform: translate(100rem);
+          transform: translate(100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
+}
+
+nav .nav ul li a {
+  padding: 0.5rem 0;
+  margin: 0 2vw;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+nav .nav ul li :last-child {
+  margin-right: 0;
+}
+
+nav .nav ul li ::before,
+nav .nav ul li ::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #58b422;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav .nav ul li ::before {
+  top: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+nav .nav ul li ::after {
+  bottom: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+nav .nav ul li :hover::before,
+nav .nav ul li :hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+nav .nav ul :nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+nav .nav ul :nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+nav .nav ul :nth-child(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+nav .nav ul :nth-child(4) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+nav .nav ul :nth-child(5) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+nav .nav .brand {
+  max-height: 2em;
+  -webkit-transform: translate(-100rem);
+          transform: translate(-100rem);
+  -webkit-animation: slidein 2s forwards ease;
+          animation: slidein 2s forwards ease;
+  -webkit-filter: drop-shadow(3px 3px 4px black);
+          filter: drop-shadow(3px 3px 4px black);
+}
+
+nav .nav .brand span {
+  color: #58b422;
+}
+
 @-webkit-keyframes slidein {
   from {
   }
@@ -95,11 +218,12 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 5%;
 }
 
 .wrapper .container {
   width: 55%;
-  margin: 5% auto;
+  margin: auto;
 }
 
 .wrapper .container h1 {
@@ -108,6 +232,8 @@ h6 {
   font-weight: 80;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
   border-bottom: 1px solid #58b422;
   position: relative;
   right: 45vw;
@@ -185,132 +311,6 @@ footer .foot .form form ::placeholder {
 .home {
   width: 100%;
   height: 100vh;
-}
-
-.home .container {
-  max-width: 140rem;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.home nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 5;
-}
-
-.home nav .nav {
-  padding-top: 1rem;
-  text-shadow: 3px 3px 4px black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-
-.home nav .nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.home nav .nav ul li {
-  list-style: none;
-  -webkit-transform: translate(100rem);
-          transform: translate(100rem);
-  -webkit-animation: slidein 2s forwards ease;
-          animation: slidein 2s forwards ease;
-}
-
-.home nav .nav ul li a {
-  padding: 0.5rem 0;
-  margin: 0 2vw;
-  position: relative;
-  letter-spacing: 2px;
-}
-
-.home nav .nav ul li :last-child {
-  margin-right: 0;
-}
-
-.home nav .nav ul li ::before,
-.home nav .nav ul li ::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #58b422;
-  left: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.home nav .nav ul li ::before {
-  top: 0;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-}
-
-.home nav .nav ul li ::after {
-  bottom: 0;
-  -webkit-transform-origin: right;
-          transform-origin: right;
-}
-
-.home nav .nav ul li :hover::before,
-.home nav .nav ul li :hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
-.home nav .nav ul :nth-child(1) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-}
-
-.home nav .nav ul :nth-child(2) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
-.home nav .nav ul :nth-child(3) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.home nav .nav ul :nth-child(4) {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-}
-
-.home nav .nav ul :nth-child(5) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.home nav .nav .brand {
-  max-height: 2em;
-  -webkit-transform: translate(-100rem);
-          transform: translate(-100rem);
-  -webkit-animation: slidein 2s forwards ease;
-          animation: slidein 2s forwards ease;
-  -webkit-filter: drop-shadow(3px 3px 4px black);
-          filter: drop-shadow(3px 3px 4px black);
-}
-
-.home nav .nav .brand span {
-  color: #58b422;
 }
 
 .home .intro {
@@ -418,7 +418,7 @@ footer .foot .form form ::placeholder {
 #main-energy {
   height: 100vh;
   margin: 0;
-  background-image: url(/images/hightech.jpg);
+  background-image: url("/assets/images/hightech.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -434,7 +434,7 @@ footer .foot .form form ::placeholder {
           flex-flow: row nowrap;
   width: 55vw;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 5%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -474,15 +474,15 @@ footer .foot .form form ::placeholder {
   font-weight: 80;
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
   border-bottom: 1px solid #008092;
   position: relative;
-  right: 45vw;
   text-align: right;
-  width: 100vw;
+  margin-right: 22%;
 }
 
 .para-cont {
-  padding: 2em;
   width: 55vw;
   margin: 0 auto;
 }
@@ -490,10 +490,11 @@ footer .foot .form form ::placeholder {
 .para-cont p,
 .para-cont ul {
   color: #464545;
+  padding: 0.5em;
 }
 
 .parallax-kris {
-  background-image: url(images/image2.jpg);
+  background-image: url("/assets/images/image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -504,7 +505,7 @@ footer .foot .form form ::placeholder {
 }
 
 .parallax2-kris {
-  background-image: url(images/water.jpg);
+  background-image: url("/assets/images/water.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
