@@ -414,4 +414,103 @@ footer .foot .form form ::placeholder {
     width: 95%;
   }
 }
+
+#main-energy {
+  height: 100vh;
+  margin: 0;
+  background-image: url(/images/hightech.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kris-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  width: 55vw;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kris-container .kris-box1 {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.kris-container .kris-box1 p {
+  padding: 1em 0 0 0;
+  font-size: 1em;
+  color: #464545;
+}
+
+.kris-container img {
+  width: 40%;
+  height: 60%;
+  margin-left: 3em;
+  padding-top: 1em;
+}
+
+.kris-title {
+  color: #008092;
+  font-size: 2.25em;
+  font-weight: 80;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  border-bottom: 1px solid #008092;
+  position: relative;
+  right: 45vw;
+  text-align: right;
+  width: 100vw;
+}
+
+.para-cont {
+  padding: 2em;
+  width: 55vw;
+  margin: 0 auto;
+}
+
+.para-cont p,
+.para-cont ul {
+  color: #464545;
+}
+
+.parallax-kris {
+  background-image: url(images/image2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.parallax2-kris {
+  background-image: url(images/water.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=style.css.map */
