@@ -465,7 +465,7 @@ footer .foot .form form ::placeholder {
 }
 
 .parallax-kris {
-  background-image: url("/assets/images/image2.jpg");
+  background-image: url("./assets/images/image2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -474,7 +474,7 @@ footer .foot .form form ::placeholder {
 }
 
 .parallax2-kris {
-  background-image: url("/assets/images/water.jpg");
+  background-image: url("./assets/images/water.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -483,7 +483,7 @@ footer .foot .form form ::placeholder {
 }
 
 .parallax3-kris {
-  background-image: url("/assets/images/hightech.jpg");
+  background-image: url("./assets/images/hightech.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -582,7 +582,7 @@ footer .foot .form form ::placeholder {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url("/assets/images/robot-header.jpg");
+  background-image: url("./assets/images/robot-header.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -594,7 +594,7 @@ footer .foot .form form ::placeholder {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("/assets/images/img_box-1.jpg");
+  background-image: url("./assets/images/img_box-1.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -648,7 +648,7 @@ footer .foot .form form ::placeholder {
 }
 
 .parallax-aaron {
-  background-image: url("/assets/images/Robotparalax.jpeg");
+  background-image: url("./assets/images/Robotparalax.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -661,7 +661,7 @@ footer .foot .form form ::placeholder {
     font-size: 12px;
   }
   html .home {
-    background: url("/assets/images/city1.jpg") no-repeat center;
+    background: url("./assets/images/city1.jpg") no-repeat center;
     background-size: cover;
     -webkit-animation: fadein 10s forwards ease;
             animation: fadein 10s forwards ease;
@@ -695,7 +695,7 @@ footer .foot .form form ::placeholder {
     font-size: 8px;
   }
   html .home {
-    background: url("/assets/images/city1.jpg") no-repeat center;
+    background: url("./assets/images/city1.jpg") no-repeat center;
     background-size: cover;
     -webkit-animation: fadein 10s forwards ease;
             animation: fadein 10s forwards ease;

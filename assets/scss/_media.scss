@@ -2,7 +2,7 @@
   html {
     font-size: 12px;
     .home {
-      background: url("/assets/images/city1.jpg") no-repeat center;
+      background: url("./assets/images/city1.jpg") no-repeat center;
       background-size: cover;
       animation: fadein 10s forwards ease;
       opacity: 0;
@@ -40,7 +40,7 @@
   html {
     font-size: 8px;
     .home {
-      background: url("/assets/images/city1.jpg") no-repeat center;
+      background: url("./assets/images/city1.jpg") no-repeat center;
       background-size: cover;
       animation: fadein 10s forwards ease;
       opacity: 0;

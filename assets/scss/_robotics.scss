@@ -61,7 +61,7 @@
     .img-box-2 {
       grid-column: 1/2;
       grid-row: 2/3;
-      background-image: url("/assets/images/robot-header.jpg");
+      background-image: url("./assets/images/robot-header.jpg");
       background-position: center;
       background-size: cover;
     }
@@ -69,7 +69,7 @@
     .img-box-1 {
       grid-column: 3/4;
       grid-row: 1/2;
-      background-image: url("/assets/images/img_box-1.jpg");
+      background-image: url("./assets/images/img_box-1.jpg");
       background-position: center;
       background-size: cover;
     }
@@ -121,7 +121,7 @@
   }
 }
 .parallax-aaron {
-  background-image: url("/assets/images/Robotparalax.jpeg");
+  background-image: url("./assets/images/Robotparalax.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

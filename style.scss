@@ -1,4 +1,4 @@
-@import "assets/scss/_var.scss";
+@import "./assets/scss/_var.scss";
 
 * {
   box-sizing: border-box;
@@ -24,17 +24,17 @@ h5,
 h6 {
   font-family: "Encode Sans Semi Expanded", sans-serif;
 }
-@import "assets/scss/_nav.scss";
-@import "assets/scss/_keyframes.scss";
-@import "assets/scss/_video.scss";
-@import "assets/scss/_wrapper.scss";
-@import "assets/scss/_footer.scss";
+@import "./assets/scss/_nav.scss";
+@import "./assets/scss/_keyframes.scss";
+@import "./assets/scss/_video.scss";
+@import "./assets/scss/_wrapper.scss";
+@import "./assets/scss/_footer.scss";
 
 .home {
   width: 100%;
   height: 100vh;
-  @import "assets/scss/_intro.scss";
+  @import "./assets/scss/_intro.scss";
 }
-@import "assets/scss/_energy.scss";
-@import "assets/scss/_robotics.scss";
-@import "assets/scss/_media.scss";
+@import "./assets/scss/_energy.scss";
+@import "./assets/scss/_robotics.scss";
+@import "./assets/scss/_media.scss";
