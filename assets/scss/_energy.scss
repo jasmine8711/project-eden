@@ -5,11 +5,14 @@
   margin: 0 auto;
   padding-bottom: 5%;
   align-items: center;
+  text-align: justify;
   .kris-box1 {
     flex-basis: 60%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
+    text-align: justify;
+
     p {
       padding: 1em 0 0 0;
       font-size: 1em;
@@ -45,6 +48,8 @@
   margin: 0 auto;
   padding-bottom: 5%;
   color: $color3;
+  text-align: justify;
+
   ul {
     padding: 1em;
     font-style: italic;

@@ -391,6 +391,7 @@ footer .foot .form form ::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: justify;
 }
 
 .kris-container .kris-box1 {
@@ -406,6 +407,7 @@ footer .foot .form form ::placeholder {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  text-align: justify;
 }
 
 .kris-container .kris-box1 p {
@@ -444,6 +446,7 @@ footer .foot .form form ::placeholder {
   margin: 0 auto;
   padding-bottom: 5%;
   color: #464545;
+  text-align: justify;
 }
 
 .para-cont ul {
@@ -493,6 +496,7 @@ footer .foot .form form ::placeholder {
   color: #464545;
   text-decoration: none;
   padding-bottom: 5%;
+  text-align: justify;
 }
 
 .robotics .container {
@@ -518,6 +522,7 @@ footer .foot .form form ::placeholder {
   padding-top: 10px;
   text-align: left;
   padding-right: 50px;
+  text-align: justify;
 }
 
 .robotics .container .content-box-1 h1 {
@@ -532,7 +537,7 @@ footer .foot .form form ::placeholder {
 }
 
 .robotics .container .content-box-1 p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .robotics .container .content-box-2 {
@@ -548,6 +553,7 @@ footer .foot .form form ::placeholder {
   padding-top: 10px;
   text-align: right;
   padding-right: 20px;
+  text-align: justify;
 }
 
 .robotics .container .content-box-2 h1 {
@@ -562,7 +568,7 @@ footer .foot .form form ::placeholder {
 }
 
 .robotics .container .content-box-2 p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .robotics .container .img-box-2 {
@@ -597,6 +603,7 @@ footer .foot .form form ::placeholder {
   height: 95vh;
   width: 55%;
   margin: auto;
+  text-align: justify;
 }
 
 .robotics .content-box h1 {
