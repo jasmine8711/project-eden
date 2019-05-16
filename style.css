@@ -506,7 +506,6 @@ footer .foot .form form ::placeholder {
 .robotics .container {
   display: -ms-grid;
   display: grid;
-  height: 100vh;
   width: 100%;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
@@ -523,7 +522,6 @@ footer .foot .form form ::placeholder {
   grid-row: 1/2;
   background-color: #ececec;
   padding-left: 2em;
-  padding-top: 1em;
   text-align: left;
   padding-right: 2em;
   text-align: justify;
@@ -556,7 +554,6 @@ footer .foot .form form ::placeholder {
   grid-row: 2/3;
   color: #ececec;
   padding-left: 2em;
-  padding-top: 1em;
   text-align: right;
   padding-right: 2em;
   text-align: justify;
@@ -607,7 +604,6 @@ footer .foot .form form ::placeholder {
   width: 55%;
   margin: auto;
   text-align: justify;
-  margin-bottom: 5%;
 }
 
 .robotics .content-box h1 {
@@ -623,7 +619,6 @@ footer .foot .form form ::placeholder {
   right: 45vw;
   text-align: right;
   width: 100vw;
-  margin-top: 5%;
   margin-block-end: 1em;
 }
 
