@@ -1,10 +1,4 @@
 #main-energy {
-  height: 100vh;
-  margin: 0;
-  background-image: url("/assets/images/hightech.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .kris-container {
   display: flex;
@@ -24,7 +18,9 @@
       color: $color3;
     }
   }
-
+  strong {
+    color: $color4;
+  }
   img {
     width: 40%;
     height: 60%;
@@ -49,10 +45,11 @@
   //   padding: 2em;
   width: 55vw;
   margin: 0 auto;
-  p,
+  padding-bottom: 5%;
+  color: $color3;
   ul {
-    color: $color3;
-    padding: 0.5em;
+    padding: 1em;
+    font-style: italic;
   }
 }
 
@@ -63,10 +60,6 @@
   background-size: cover;
   background-attachment: fixed;
   height: 75vh;
-  margin: {
-    top: 100px;
-    bottom: 10px;
-  }
 }
 
 .parallax2-kris {
@@ -76,8 +69,12 @@
   background-size: cover;
   background-attachment: fixed;
   height: 75vh;
-  margin: {
-    top: 100px;
-    bottom: 10px;
-  }
+}
+.parallax3-kris {
+  background-image: url("/assets/images/hightech.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
