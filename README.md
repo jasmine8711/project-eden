@@ -98,9 +98,9 @@ The license can be found in [this](https://github.com/cheungkinwong/project-eden
 ### Git(hub) is what you make it
 
 - [x] All commits use the correct format (if applied this commit will...)
-- [ ] A github description has been filled in
-- [ ] A github website has been filled in
-- [ ] Github topics have been filled in
+- [x] A github description has been filled in
+- [x] A github website has been filled in
+- [x] Github topics have been filled in
 
 ### Readme but also writeme
 
@@ -139,8 +139,8 @@ The license can be found in [this](https://github.com/cheungkinwong/project-eden
 ### Perform all the tests
 
 - [x] Lighthouse
-- [ ] W3C validator
-- [ ] Monkey test
+- [x] W3C validator
+- [x] Monkey test
 
 ### Putting the antics back in semantics (but only for the html)
 
@@ -169,5 +169,5 @@ The license can be found in [this](https://github.com/cheungkinwong/project-eden
 
 ### Errors are to be avoided
 
-- [ ] No http resources are used on an https website
-- [ ] The console shows no errors
+- [x] No http resources are used on an https website
+- [x] The console shows no errors
