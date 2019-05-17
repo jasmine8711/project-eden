@@ -873,6 +873,12 @@ header .logo img {
   .googlebox {
     width: 55%;
   }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -895,6 +901,12 @@ header .logo img {
     width: 55%;
   }
   .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
     width: 55%;
   }
 }
@@ -935,6 +947,23 @@ header .logo img {
   .googlebox {
     width: 80%;
   }
+  .eco-container {
+    width: 80%;
+  }
+  .la-roundbox {
+    width: 80%;
+  }
+  .la-picbox {
+    height: 75vh;
+  }
+  .la-picbox .la-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 33vw;
+    height: 15vh;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -971,6 +1000,15 @@ header .logo img {
   }
   .googlebox {
     width: 95%;
+  }
+  .eco-container {
+    width: 95%;
+  }
+  .la-roundbox {
+    width: 95%;
+  }
+  .la-picbox {
+    display: none;
   }
 }
 

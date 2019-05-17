@@ -24,6 +24,12 @@
   .googlebox {
     width: 55%;
   }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -51,6 +57,12 @@
     }
   }
   .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
     width: 55%;
   }
 }
@@ -94,6 +106,21 @@
   .googlebox {
     width: 80%;
   }
+  .eco-container {
+    width: 80%;
+  }
+  .la-roundbox {
+    width: 80%;
+  }
+  .la-picbox {
+    height: 75vh;
+
+    .la-item {
+      flex-flow: row wrap;
+      width: 33vw;
+      height: 15vh;
+    }
+  }
 }
 @media only screen and (max-width: 375px) {
   html {
@@ -133,5 +160,14 @@
   }
   .googlebox {
     width: 95%;
+  }
+  .eco-container {
+    width: 95%;
+  }
+  .la-roundbox {
+    width: 95%;
+  }
+  .la-picbox {
+    display: none;
   }
 }
