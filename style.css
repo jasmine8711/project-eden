@@ -12,6 +12,7 @@ html {
   font-family: "roboto", sans-serif;
   color: #ececec;
   background: white;
+  width: 100vw;
 }
 
 a {
@@ -518,14 +519,14 @@ header .logo img {
 .googlebox .googlelink {
   width: 60%;
   height: 40vh;
-  margin: 2em 2em 2em 0em;
+  margin: 1em 1em 1em 0em;
 }
 
 .googlebox .google-box1 {
   font-size: 1em;
   color: #464545;
   border: #58b422 solid 1px;
-  margin: 2em 0em 2em 2em;
+  margin: 1em 0em 1em 1em;
   padding: 1em;
 }
 
@@ -1012,16 +1013,16 @@ footer .foot .form form ::placeholder {
   html {
     font-size: 12px;
   }
-  html header {
+  html .fullscreen-video-wrap {
     background: url("./assets/images/city1.jpg") no-repeat center;
     background-size: cover;
-    -webkit-animation: fadein 10s forwards ease;
-            animation: fadein 10s forwards ease;
+    position: absolute;
+    z-index: -1;
     opacity: 0;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100vh;
+    -webkit-animation: fadein 2s forwards ease;
+            animation: fadein 2s forwards ease;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   video {
     display: none;
@@ -1067,12 +1068,16 @@ footer .foot .form form ::placeholder {
   html {
     font-size: 8px;
   }
-  html header {
+  html .fullscreen-video-wrap {
     background: url("./assets/images/city1.jpg") no-repeat center;
     background-size: cover;
-    -webkit-animation: fadein 10s forwards ease;
-            animation: fadein 10s forwards ease;
+    position: absolute;
+    z-index: -1;
     opacity: 0;
+    -webkit-animation: fadein 2s forwards ease;
+            animation: fadein 2s forwards ease;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   video {
     display: none;
