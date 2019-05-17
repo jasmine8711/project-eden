@@ -482,15 +482,15 @@ header .logo img {
 }
 
 .la-itemcolor1 {
-  background: #ff7b42;
-}
-
-.la-itemcolor2 {
   background: #01446e;
 }
 
+.la-itemcolor2 {
+  background: #ff7b42;
+}
+
 .la-itemcolor3 {
-  background: #58b422;
+  background: #858f8b;
 }
 
 .eco-image {
