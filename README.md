@@ -1,6 +1,6 @@
 # Project Eden
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1"
+![screen shot](https://github.com/cheungkinwong/project-eden/assets/images/capture.png "Logo Title Text 1")
 
 ## Brain-storming:
 
