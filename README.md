@@ -1,6 +1,6 @@
 # Project Eden
 
-![screen shot](https://github.com/cheungkinwong/project-eden/assets/images/Capture.png "Logo Title Text 1")
+![screen shot](https://github.com/cheungkinwong/project-eden/blob/master/assets/images/Capture.PNG "Logo Title Text 1")
 
 ## Brain-storming:
 
