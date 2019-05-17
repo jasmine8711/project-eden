@@ -422,6 +422,7 @@ header .logo img {
   margin-top: 1em;
 }
 
+/* labox */
 .la-picbox {
   width: 100vw;
   height: 100vh;
@@ -467,6 +468,10 @@ header .logo img {
   margin: 0;
   padding: 0;
   background: #008092;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 
 .la-item p {
@@ -475,6 +480,15 @@ header .logo img {
   color: #ececec;
   font-size: 1.5em;
   text-transform: uppercase;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+
+img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .la-itemcolor1 {
