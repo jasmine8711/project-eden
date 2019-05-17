@@ -12,6 +12,7 @@ html {
   font-family: "roboto", sans-serif;
   color: #ececec;
   background: white;
+  width: 100vw;
 }
 
 a {
@@ -477,20 +478,20 @@ header .logo img {
   font-family: "Encode Sans Semi Expanded", sans-serif;
   text-align: center;
   color: #ececec;
-  font-size: 2em;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
 .la-itemcolor1 {
-  background: #ff7b42;
-}
-
-.la-itemcolor2 {
   background: #01446e;
 }
 
+.la-itemcolor2 {
+  background: #ff7b42;
+}
+
 .la-itemcolor3 {
-  background: #58b422;
+  background: #858f8b;
 }
 
 .eco-image {
@@ -518,19 +519,28 @@ header .logo img {
 .googlebox .googlelink {
   width: 60%;
   height: 40vh;
-  margin: 2em 2em 2em 0em;
+  margin: 1em 1em 1em 0em;
 }
 
 .googlebox .google-box1 {
   font-size: 1em;
   color: #464545;
   border: #58b422 solid 1px;
-  margin: 2em 0em 2em 2em;
+  margin: 1em 0em 1em 1em;
   padding: 1em;
+}
+
+.googlebox .google-box1 h2 {
+  font-size: 1em;
+  color: #58b422;
+  -webkit-margin-after: 0.2em;
+          margin-block-end: 0.2em;
 }
 
 .googlebox .google-box1 li {
   list-style: none;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
 }
 
 .googlebox .google-box1 a {
@@ -851,167 +861,6 @@ header .logo img {
   height: 100vh;
 }
 
-@media only screen and (max-width: 2000px) {
-  html {
-    font-size: 24px;
-  }
-  .home-container {
-    width: 55%;
-  }
-  footer .foot {
-    width: 55%;
-  }
-  .kris-container {
-    width: 55%;
-  }
-  .para-cont {
-    width: 55%;
-  }
-  .robotics .content-box {
-    width: 55%;
-  }
-  .googlebox {
-    width: 55%;
-  }
-  .eco-container {
-    width: 55%;
-  }
-  .la-roundbox {
-    width: 55%;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  html {
-    font-size: 16px;
-  }
-  .home-container {
-    width: 55%;
-  }
-  .kris-container {
-    width: 55%;
-  }
-  .para-cont {
-    width: 55%;
-  }
-  .robotics .content-box {
-    width: 55%;
-  }
-  footer .foot {
-    width: 55%;
-  }
-  .googlebox {
-    width: 55%;
-  }
-  .eco-container {
-    width: 55%;
-  }
-  .la-roundbox {
-    width: 55%;
-  }
-}
-
-@media only screen and (max-width: 770px) {
-  html {
-    font-size: 12px;
-  }
-  html header {
-    background: url("./assets/images/city1.jpg") no-repeat center;
-    background-size: cover;
-    -webkit-animation: fadein 10s forwards ease;
-            animation: fadein 10s forwards ease;
-    opacity: 0;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-  }
-  video {
-    display: none;
-  }
-  .home-container {
-    width: 80%;
-  }
-  .kris-container {
-    width: 80%;
-  }
-  .para-cont {
-    width: 80%;
-  }
-  .robotics .content-box {
-    width: 80%;
-  }
-  footer .foot {
-    width: 80%;
-  }
-  .googlebox {
-    width: 80%;
-  }
-  .eco-container {
-    width: 80%;
-  }
-  .la-roundbox {
-    width: 80%;
-  }
-  .la-picbox {
-    height: 75vh;
-  }
-  .la-picbox .la-item {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    width: 33vw;
-    height: 15vh;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  html {
-    font-size: 8px;
-  }
-  html header {
-    background: url("./assets/images/city1.jpg") no-repeat center;
-    background-size: cover;
-    -webkit-animation: fadein 10s forwards ease;
-            animation: fadein 10s forwards ease;
-    opacity: 0;
-  }
-  video {
-    display: none;
-  }
-  nav {
-    display: none;
-  }
-  .home-container {
-    width: 95%;
-  }
-  .kris-container {
-    width: 95%;
-  }
-  .para-cont {
-    width: 95%;
-  }
-  .robotics .content-box {
-    width: 95%;
-  }
-  footer .foot {
-    width: 95%;
-  }
-  .googlebox {
-    width: 95%;
-  }
-  .eco-container {
-    width: 95%;
-  }
-  .la-roundbox {
-    width: 95%;
-  }
-  .la-picbox {
-    display: none;
-  }
-}
-
 .wrapper {
   width: 100%;
   height: auto;
@@ -1081,6 +930,7 @@ footer .foot .form form input {
   border: 1px solid;
   border-radius: 2px;
   padding: 5px;
+  width: 100%;
 }
 
 footer .foot .form form ::-webkit-input-placeholder {
@@ -1097,5 +947,170 @@ footer .foot .form form ::-ms-input-placeholder {
 
 footer .foot .form form ::placeholder {
   color: #ececec;
+}
+
+@media only screen and (max-width: 2000px) {
+  html {
+    font-size: 24px;
+  }
+  .home-container {
+    width: 55%;
+  }
+  footer .foot {
+    width: 55%;
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics .content-box {
+    width: 55%;
+  }
+  .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+  .home-container {
+    width: 55%;
+  }
+  .kris-container {
+    width: 55%;
+  }
+  .para-cont {
+    width: 55%;
+  }
+  .robotics .content-box {
+    width: 55%;
+  }
+  footer .foot {
+    width: 55%;
+  }
+  .googlebox {
+    width: 55%;
+  }
+  .eco-container {
+    width: 55%;
+  }
+  .la-roundbox {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+  }
+  html .fullscreen-video-wrap {
+    background: url("./assets/images/city1.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-animation: fadein 2s forwards ease;
+            animation: fadein 2s forwards ease;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }
+  video {
+    display: none;
+  }
+  .home-container {
+    width: 80%;
+  }
+  .kris-container {
+    width: 80%;
+  }
+  .para-cont {
+    width: 80%;
+  }
+  .robotics .content-box {
+    width: 80%;
+  }
+  footer .foot {
+    width: 80%;
+  }
+  .googlebox {
+    width: 80%;
+  }
+  .eco-container {
+    width: 80%;
+  }
+  .la-roundbox {
+    width: 80%;
+  }
+  .la-picbox {
+    height: 75vh;
+  }
+  .la-picbox .la-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 33vw;
+    height: 15vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 8px;
+  }
+  html .fullscreen-video-wrap {
+    background: url("./assets/images/city1.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-animation: fadein 2s forwards ease;
+            animation: fadein 2s forwards ease;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }
+  video {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .home-container {
+    width: 95%;
+  }
+  .kris-container {
+    width: 95%;
+  }
+  .para-cont {
+    width: 95%;
+  }
+  .robotics .content-box {
+    width: 95%;
+  }
+  .foot {
+    width: 95vw;
+  }
+  .googlebox {
+    width: 95%;
+  }
+  .eco-container {
+    width: 95%;
+  }
+  .la-roundbox {
+    width: 95%;
+  }
+  .la-picbox {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

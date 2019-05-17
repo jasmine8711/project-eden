@@ -11,6 +11,7 @@ html {
   font-family: "roboto", sans-serif;
   color: $color1;
   background: white;
+  width: 100vw;
 }
 a {
   text-decoration: none;
@@ -34,6 +35,6 @@ h6 {
 
 @import "./assets/scss/_energy.scss";
 @import "./assets/scss/_robotics.scss";
-@import "./assets/scss/_media.scss";
 @import "./assets/scss/_wrapper.scss";
 @import "./assets/scss/_footer.scss";
+@import "./assets/scss/_media.scss";
