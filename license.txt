@@ -1,4 +1,10 @@
+
+cheungkinwong/project-eden] is licensed under the GNU General Public License v3.0.
+GNU  https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Data, media, Logo is licensed under CC0-1.0.
+
 No frameworks, nor templates were used.
-This website may only be used for educational purposes and should not be used without consent of its developers.
-The code should not be used for profit share, but can be used as example for your own project.
-Enjoy our site!
+All the images are from google search.
+The video we used is from https://www.youtube.com/watch?v=ReW7_0npYQo
+We creat our website for a coding school learning project, no conmmersial use.
