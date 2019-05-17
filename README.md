@@ -13,7 +13,7 @@ We each made our own section on this webpage:
 | Developer | Web section |
 | --------- | :---------: |
 | Kin       | Front-page  |
-| Jasmine   |  Landscape  |
+| Jasmine   |  Eco city   |
 | Aaron     |  Robotics   |
 | Kris      |   Energy    |
 
