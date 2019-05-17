@@ -73,32 +73,30 @@ nav {
           transform: scaleX(1);
         }
       }
+
       :nth-child(1) {
         animation-delay: 0s;
+        ::before,
+        ::after {
+          background-color: $color7;
+        }
       }
       :nth-child(2) {
         animation-delay: 0.5s;
         ::before,
         ::after {
-          background-color: $color7;
+          background-color: $color4;
         }
       }
       :nth-child(3) {
         animation-delay: 1s;
         ::before,
         ::after {
-          background-color: $color4;
+          background-color: $color5;
         }
       }
       :nth-child(4) {
         animation-delay: 1.5s;
-        ::before,
-        ::after {
-          background-color: $color5;
-        }
-      }
-      :nth-child(5) {
-        animation-delay: 2s;
       }
     }
   }
