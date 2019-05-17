@@ -529,8 +529,17 @@ header .logo img {
   padding: 1em;
 }
 
+.googlebox .google-box1 h2 {
+  font-size: 1em;
+  color: #58b422;
+  -webkit-margin-after: 0.2em;
+          margin-block-end: 0.2em;
+}
+
 .googlebox .google-box1 li {
   list-style: none;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
 }
 
 .googlebox .google-box1 a {
@@ -1081,6 +1090,7 @@ footer .foot .form form input {
   border: 1px solid;
   border-radius: 2px;
   padding: 5px;
+  width: 100%;
 }
 
 footer .foot .form form ::-webkit-input-placeholder {

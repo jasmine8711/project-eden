@@ -133,8 +133,14 @@
     border: $color2 solid 1px;
     margin: 2em 0em 2em 2em;
     padding: 1em;
+    h2 {
+      font-size: 1em;
+      color: $color2;
+      margin-block-end: 0.2em;
+    }
     li {
       list-style: none;
+      margin-block-end: 1em;
     }
     a {
       text-decoration: none;
