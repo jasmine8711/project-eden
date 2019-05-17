@@ -906,10 +906,21 @@ footer .foot {
 footer .foot .contact h2 {
   -webkit-margin-after: 0.5em;
           margin-block-end: 0.5em;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 footer .foot .contact ul li {
   list-style: none;
+  text-align: center;
+}
+
+footer .foot .contact ul li .linkcolor {
+  background: #ececec;
+  color: #464545;
+  border: none;
+  border-radius: 2px;
+  padding: 0 10px;
 }
 
 footer .foot .form h2 {
@@ -942,6 +953,46 @@ footer .foot .form form ::-ms-input-placeholder {
 
 footer .foot .form form ::placeholder {
   color: #ececec;
+}
+
+footer .foot .form form .linkcolor {
+  background: #ececec;
+  color: #464545;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.foot3 {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  background: #464545;
+  color: #ececec;
+}
+
+.foot3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3vh;
+  position: relative;
+  top: 40%;
+}
+
+.foot3 ul li {
+  margin-right: 2em;
+  padding-right: 2em;
+  line-height: 3vh;
+  list-style: none;
+  border-right: 1px solid #ececec;
 }
 
 @media only screen and (max-width: 2000px) {
