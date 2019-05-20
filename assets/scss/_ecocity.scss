@@ -74,22 +74,26 @@
   align-content: space-between;
   margin: 0;
   padding: 0;
-}
-
-.la-item {
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-grow: 1;
-  width: 20vw;
-  height: 33.33vh;
-  margin: 0;
-  padding: 0;
-  background: $color4;
-  transition: transform 2s;
+  .la-item {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 20vw;
+    height: 33.33vh;
+    margin: 0;
+    padding: 0;
+    transition: transform 2s;
+  }
+  .imgbox {
+    overflow: hidden;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
   p {
     font-family: "Encode Sans Semi Expanded", sans-serif;
     text-align: center;
@@ -97,12 +101,6 @@
     font-size: 1.5em;
     text-transform: uppercase;
   }
-}
-.imgbox{
-  overflow: hidden;
-}
-img:hover{
-  transform: scale(1.5);
 }
 
 .la-itemcolor1 {
@@ -113,6 +111,9 @@ img:hover{
 }
 .la-itemcolor3 {
   background: $color9;
+}
+.la-itemcolor4 {
+  background: $color4;
 }
 .eco-image {
   max-width: 100%;

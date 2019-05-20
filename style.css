@@ -442,7 +442,7 @@ header .logo img {
   padding: 0;
 }
 
-.la-item {
+.la-picbox .la-item {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -467,28 +467,27 @@ header .logo img {
   height: 33.33vh;
   margin: 0;
   padding: 0;
-  background: #008092;
   -webkit-transition: -webkit-transform 2s;
   transition: -webkit-transform 2s;
   transition: transform 2s;
   transition: transform 2s, -webkit-transform 2s;
 }
 
-.la-item p {
+.la-picbox .imgbox {
+  overflow: hidden;
+}
+
+.la-picbox img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.la-picbox p {
   font-family: "Encode Sans Semi Expanded", sans-serif;
   text-align: center;
   color: #ececec;
   font-size: 1.5em;
   text-transform: uppercase;
-}
-
-.imgbox {
-  overflow: hidden;
-}
-
-img:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 .la-itemcolor1 {
@@ -501,6 +500,10 @@ img:hover {
 
 .la-itemcolor3 {
   background: #858f8b;
+}
+
+.la-itemcolor4 {
+  background: #008092;
 }
 
 .eco-image {
@@ -1009,7 +1012,7 @@ footer .foot .form form .linkcolor {
   border-right: 1px solid #ececec;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (min-width: 1400px) {
   html {
     font-size: 24px;
   }
